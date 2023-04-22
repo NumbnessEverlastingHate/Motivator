@@ -159,9 +159,9 @@ color: #FFFFFF;
     height: 70%;
     top: 70%;
     
-    background: url(..//Images/noise.png);
+
     backdrop-filter: blur(2.5px);
-    background-color: rgb(44, 44, 46);
+    background-color: rgb(35, 35, 36);
     left: 0px;
 
 }
@@ -392,7 +392,7 @@ height: 100%;
 top: 140%;
 
 backdrop-filter: blur(2.5px);
-background-color: rgb(44, 44, 46);
+background-color: rgb(35, 35, 36);
 left: 0px;
 }
 
@@ -589,7 +589,7 @@ left: 0px;
     top: 240%;
     
     backdrop-filter: blur(2.5px);
-    background-color: rgb(44, 44, 46);
+    background-color: rgb(35, 35, 36);
     left: 0px;
 }
 
@@ -965,4 +965,60 @@ transform: rotate(90deg);
     
     
     color: rgba(255, 255, 255, 0.8);
+}
+
+.kirill {
+    position: absolute;
+width: 1500px;
+height: 2500px;
+left: 5000px;
+top: 1000px;
+}
+
+.blackKirill {
+    position: absolute;
+    width: 2000px;
+    height: 1000px;
+    left: 4600px;
+    top: 2600px;
+}
+
+.circleKirill {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 5700px;
+    top: 2560px;
+}
+
+.InfoKirill {
+    position: absolute;
+
+    left: 5250px;
+    top: 2750px;
+    
+    font-family: 'Neue Machina-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68px;
+
+    
+    
+    color: #FFFFFF;
+}
+
+.kirillText {
+    left: 5250px;
+    top: 2950px;
+    position: absolute;
+    width: 1000px;
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 68px;
+
+
+    
+    
+    color: #FFFFFF;
 }

@@ -26,6 +26,8 @@ height: 70%;
 background: rgba(0, 0, 0, 0.4);
 backdrop-filter: blur(3px);
 position: absolute;
+top: 0px;
+left: 0px;
 
 }
 
@@ -160,6 +162,8 @@ color: #FFFFFF;
     background: url(..//Images/noise.png);
     backdrop-filter: blur(2.5px);
     background-color: rgb(44, 44, 46);
+    left: 0px;
+
 }
 
 .AdvantagesText1 { 
@@ -390,6 +394,7 @@ top: 140%;
 background: url(..//Images/noise.png);
 backdrop-filter: blur(2.5px);
 background-color: rgb(44, 44, 46);
+left: 0px;
 }
 
 .ForWhomText {

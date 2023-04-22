@@ -1,0 +1,579 @@
+@font-face {
+    font-family: 'TT Travels-Regular';
+    src: url(..//Fonts/TTTravels-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'TT Travels-Medium';
+    src: url(..//Fonts/TTTravels-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Neue Machina-Bold';
+    src: url(..//Fonts/NeueMachina-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Neue Machina-Medium';
+    src: url(..//Fonts/NeueMachina-Medium.ttf);
+}
+
+
+.abstract2 {
+position: absolute;
+width: 100%;
+height: 70%;
+background: rgba(0, 0, 0, 0.4);
+backdrop-filter: blur(3px);
+position: absolute;
+
+}
+
+.MTW {
+position: absolute;
+width: 120px;
+height: 40px;
+left: 126px;
+top: 70px;
+}
+
+.Advantages {
+position: absolute;
+
+left: 25%;
+top: 135px;
+
+font-family: 'TT Travels-Regular';  
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
+.ForWhom {
+position: absolute;
+
+left: 50%;
+top: 127px;
+
+font-family: 'TT Travels-Regular';
+font-style: normal;
+font-size: 56px;
+
+
+color: #FFFFFF;
+}
+
+.PrincipleOfOperation {
+    position: absolute;
+
+    left: 75%;
+    top: 127px;
+    
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.SignIn {
+    position: absolute;
+    width: 76px;
+    height: 29px;
+    left: 92%;
+    top: 145px;
+    font-family: 'TT Travels';
+    font-style: normal;
+    font-size: 56px;    
+    text-align: right;
+    
+    color: #FBFC72;
+}
+
+.MainHead {
+    position: absolute;
+    width: 1500px;
+    left: 40%;
+    top: 17%;
+    font-family: 'Neue Machina-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.ShortDescription {
+    position: absolute;
+
+    left: 42%;
+    top: 27%;
+    
+    font-family: 'TT Travels-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 38px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.ButtonBlock {
+    position: absolute;
+    left: 45.5%;
+    top: 37%;
+    height: 5%;
+    width: 10%;
+    background: #FBFC72;
+}
+
+.Connect {
+    position: absolute;
+
+    top: 38%;
+    font-family: 'Neue Machina-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 31px;
+    font-weight: bold;
+    left: 10%;
+    top: 40%;
+    
+    color: #000000;
+}
+
+.AdvantagesBlock {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 70%;
+    
+    background: url(..//Images/noise.png);
+    backdrop-filter: blur(2.5px);
+    background-color: rgb(44, 44, 46);
+}
+
+.AdvantagesText1 { 
+    position: absolute;
+    width: 244px;
+    height: 31px;
+    left: 123px;
+    top: 50px;
+    
+    font-family: 'Neue Machina-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 31px;
+    
+    
+    color:  rgba(251, 252, 114, 0.8);
+}
+
+.AdvantagesHead {
+    position: absolute;
+    height: 138px;
+    left: 650px;
+    top: 240px;
+    
+    font-family: 'Neue Machina-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 70px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.vasya {
+    position: absolute;
+width: 1100px;
+height: 1300px;
+left: 3500px;
+top: 200px;
+}
+
+.blackVasya {
+    position: absolute;
+width: 1500px;
+height: 1300px;
+left: 3350px;
+top: 850px;
+}
+
+.headVasya {
+    color: #FFFFFF;
+    position: absolute;
+left: 3750px;
+top: 1000px;
+font-size: 100px;
+font-family: 'Neue Machina-Medium';
+
+}
+
+.textVasya {
+    color: #FFFFFF;
+    position: absolute;
+left: 3500px;
+top: 1200px;
+font-size: 90px;
+width: 1300px;
+font-family: 'TT Travels-Regular';
+
+}
+
+.ellipseVasya {
+    position: absolute;
+left: 4400px;
+top: 900px;
+width: 200px;
+height: 200px;
+}
+
+.number1 {
+    position: absolute;
+    width: 40px;
+    height: 31px;
+    left: 123px;
+    top: 550px;
+    
+    font-family: 'Neue Machina-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 31px;
+    
+    
+    color: rgba(251, 252, 114, 0.8); 
+}
+
+.AdvantagesInfo1 {
+    position: absolute;
+    left: 123px;
+    top: 650px;
+    
+    font-family: 'TT Travels-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 95%;
+    
+    
+    color: #FFFFFF;
+}
+
+.UnderAdvantagesInfo1 {
+    position: absolute;
+    left: 124px;
+    top: 800px;
+    
+    font-family: 'TT Travels-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 95%;
+    
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.number2 {
+    position: absolute;
+    width: 40px;
+    height: 31px;
+    left: 123px;
+    top: 1000px;
+    
+    font-family: 'Neue Machina-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 31px;
+    
+    
+    color: rgba(251, 252, 114, 0.8);   
+}
+
+.AdvantagesInfo2 {
+    position: absolute;
+    left: 123px;
+    top: 1100px;
+    
+    font-family: 'TT Travels-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 95%;
+    
+    
+    color: #FFFFFF;   
+}
+
+.UnderAdvantagesInfo2 {
+    position: absolute;
+    left: 124px;
+    top: 1250px;
+    
+    font-family: 'TT Travels-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 95%;
+    
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.number3 {
+    position: absolute;
+    width: 40px;
+    height: 31px;
+    left: 123px;
+    top: 1450px;
+    
+    font-family: 'Neue Machina-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 31px;
+    
+    
+    color: rgba(251, 252, 114, 0.8);   
+}
+
+.AdvantagesInfo3 {
+    position: absolute;
+    left: 123px;
+    top: 1550px;
+    
+    font-family: 'TT Travels-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 95%;
+    
+    
+    color: #FFFFFF;  
+}
+
+.UnderAdvantagesInfo3 {
+    position: absolute;
+    left: 124px;
+    top: 1700px;
+    
+    font-family: 'TT Travels-Medium ';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 95%;
+    
+    
+    color: rgba(255, 255, 255, 0.8);   
+}
+
+.ForWhomBlock {
+position: absolute;
+width: 100%;
+height: 100%;
+top: 140%;
+
+background: url(..//Images/noise.png);
+backdrop-filter: blur(2.5px);
+background-color: rgb(44, 44, 46);
+}
+
+.ForWhomText {
+    position: absolute;
+    left: 123px;
+    top: 50px;  
+    font-family: 'Neue Machina-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    color:  rgba(251, 252, 114, 0.8);
+}
+
+.ForWhomHead {
+    position: absolute;
+    height: 138px;
+    left: 650px;
+    top: 240px;
+    
+    font-family: 'Neue Machina-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 70px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.ForWhomNumber1 {
+    position: absolute;
+    width: 40px;
+    height: 31px;
+    left: 650px;
+    top: 550px;
+    
+    font-family: 'Neue Machina-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 31px;
+    
+    
+    color: rgba(251, 252, 114, 0.8);     
+}
+
+.ForWhomNumber1Head {
+    position: absolute;
+    left: 650px;
+    top: 650px;
+    
+    font-family: 'TT Travels-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 95%;
+    
+    
+    color: #FFFFFF;   
+}
+
+.UnderForWhomHead1 {
+    position: absolute;
+    left: 650px;
+    top: 800px;
+    
+    font-family: 'TT Travels-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    width: 1100px;
+    
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.ForWhomNumber2 {
+    position: absolute;
+    width: 40px;
+    height: 31px;
+    left: 2350px;
+    top: 550px;
+    
+    font-family: 'Neue Machina-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 31px;
+    
+    
+    color: rgba(251, 252, 114, 0.8); 
+}
+
+.ForWhomNumber2Head2 {
+    position: absolute;
+    left: 2350px;
+    top: 650px;
+    
+    font-family: 'TT Travels-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 95%;
+    
+    
+    color: #FFFFFF; 
+}
+
+.UnderForWhomHead2 {
+    position: absolute;
+    left: 2350px;
+    top: 800px;
+    
+    font-family: 'TT Travels-Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    width: 1100px;
+    
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.people {
+    position: absolute;
+    width: 2000px;
+    height: 700px;
+    left: 1800px;
+    top: 1500px;
+}
+
+.blackPeople {
+
+    position: absolute;
+    width: 2100px;
+    height: 1000px;
+    left: 1800px;
+    top: 2000px;
+}
+
+.peopleText1 {
+    position: absolute;
+    left: 1950px;
+    top: 2100px;
+    width: 2000px;
+    font-family: 'Neue Machina-Medium';
+    font-style: normal;
+    font-size: 64px;
+    
+    color: #FFFFFF;
+}
+
+.ConOurService {
+    position: absolute;
+    width: 1150px;
+    left: 1950px;
+    top: 2450px;
+    font-size: 56px;
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.ButtonBlock2 {
+    position: absolute;
+    width: 600px;
+    height: 150px;
+    left: 2000px;
+    top: 2720px;
+    
+    background: #FBFC72;
+}
+
+.Button2Text {
+    position: absolute;
+
+    
+    font-family: 'Neue Machina-Bold';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 31px;
+    left: 26.5px;
+    top: 50px;
+    
+    color: #000000;
+}

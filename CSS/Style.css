@@ -391,7 +391,6 @@ width: 100%;
 height: 100%;
 top: 140%;
 
-background: url(..//Images/noise.png);
 backdrop-filter: blur(2.5px);
 background-color: rgb(44, 44, 46);
 left: 0px;
@@ -581,4 +580,389 @@ left: 0px;
     top: 50px;
     
     color: #000000;
+}
+
+.PrincipleOfOperationBlock {
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    top: 240%;
+    
+    backdrop-filter: blur(2.5px);
+    background-color: rgb(44, 44, 46);
+    left: 0px;
+}
+
+.princip {
+    position: absolute;
+    left: 123px;
+    top: 50px;  
+    font-family: 'Neue Machina-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    color:  rgba(251, 252, 114, 0.8);   
+}
+
+.jobService {
+    position: absolute;
+    height: 138px;
+    left: 650px;
+    top: 240px;
+    
+    font-family: 'Neue Machina-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 70px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.line {
+    
+position: absolute;
+width: 1290px;
+height: 5px;
+left: 40px;
+top: 1350px;
+
+border: 3px solid #FFFFFF;
+transform: rotate(90deg);
+}
+
+.line2 {
+    
+    position: absolute;
+    width: 1290px;
+    height: 5px;
+    left: 40px;
+    top: 2650px;
+    
+    border: 3px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+
+.line3 {
+    
+    position: absolute;
+    width: 1290px;
+    height: 5px;
+    left: 40px;
+    top: 3350px;
+    
+    border: 3px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+
+.line4 {
+    
+    position: absolute;
+    width: 1290px;
+    height: 5px;
+    left: 40px;
+    top: 4600px;
+    
+    border: 3px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+
+
+.circle1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 640px;
+    top: 900px;
+    border-radius: 50%;
+    
+    background: #FFFFFF;
+}
+
+.circle2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 640px;
+    top: 1800px;
+    border-radius: 50%;
+    
+    background: #FFFFFF;
+}
+
+.circle3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 640px;
+    top: 2700px;
+    border-radius: 50%;
+    
+    background: #FFFFFF;
+}
+
+.circle4 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 640px;
+    top: 3700px;
+    border-radius: 50%;
+    
+    background: #FFFFFF;
+}
+
+.circle5 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 640px;
+    top: 4600px;
+    border-radius: 50%;
+    
+    background: #FFFFFF;
+}
+
+.first {
+    position: absolute;
+    width: 40px;
+    height: 31px;
+    left: 850px;
+    top: 870px;
+    
+    font-family: 'Neue Machina-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 31px;
+    
+    
+    color: rgba(251, 252, 114, 0.8); 
+}
+
+.reg {
+    position: absolute;
+    left: 850px;
+    top: 1000px;
+    
+    font-family: 'TT Travels-Medium';
+    font-style: normal;
+    font-weight:bold;
+    font-size: 70px;
+    width: 1100px;
+    
+    
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.regText {
+    position: absolute;
+
+    left: 850px;
+    top: 1250px;
+    width: 1500px;
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 95%;
+    
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.second {
+    position: absolute; 
+    width: 40px;
+    height: 31px;
+    left: 850px;
+    top: 1768px;
+    
+    font-family: 'Neue Machina-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 31px;
+    
+    
+    color: rgba(251, 252, 114, 0.8); 
+}
+
+.Goal {
+    position: absolute;
+    left: 850px;
+    top: 1900px;
+    
+    font-family: 'TT Travels-Medium';
+    font-style: normal;
+    font-weight:bold;
+    font-size: 70px;
+    width: 1100px;
+    
+    
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.GoalText {
+    position: absolute;
+
+    left: 850px;
+    top: 2150px;
+    width: 1500px;
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 95%;
+    
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.third {
+    position: absolute; 
+    width: 40px;
+    height: 31px;
+    left: 850px;
+    top: 2670px;
+    
+    font-family: 'Neue Machina-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 31px;
+    
+    
+    color: rgba(251, 252, 114, 0.8); 
+}
+
+.search {
+    position: absolute;
+    left: 850px;
+    top: 2840px;
+    
+    font-family: 'TT Travels-Medium';
+    font-style: normal;
+    font-weight:bold;
+    font-size: 70px;
+    
+    
+    
+    color: rgba(255, 255, 255, 0.8);   
+}
+
+.searchText {
+    position: absolute;
+
+    left: 850px;
+    top: 3090px;
+    width: 1500px;
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 95%;
+    
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.Fourth {
+    position: absolute; 
+    width: 40px;
+    height: 31px;
+    left: 850px;
+    top: 3670px;
+    
+    font-family: 'Neue Machina-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 31px;
+    
+    
+    color: rgba(251, 252, 114, 0.8); 
+}
+
+.Plavno {
+    position: absolute;
+    left: 850px;
+    top: 3850px;
+    
+    font-family: 'TT Travels-Medium';
+    font-style: normal;
+    font-weight:bold;
+    font-size: 70px;
+    width: 1100px;
+    
+    
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+   
+.PlavnoText {
+    position: absolute;
+
+    left: 850px;
+    top: 4100px;
+    width: 1500px;
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 95%;
+    
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.Fifth {
+    position: absolute; 
+    width: 40px;
+    height: 31px;
+    left: 850px;
+    top: 4580px;
+    
+    font-family: 'Neue Machina-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 31px;
+    
+    
+    color: rgba(251, 252, 114, 0.8);    
+}
+
+.End {
+    position: absolute;
+    left: 850px;
+    top: 4770px;
+    
+    font-family: 'TT Travels-Medium';
+    font-style: normal;
+    font-weight:bold;
+    font-size: 70px;
+    
+    
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.EndText {
+    position: absolute;
+
+    left: 850px;
+    top: 5000px;
+    width: 1500px;
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 95%;
+    
+    
+    color: rgba(255, 255, 255, 0.8);
 }

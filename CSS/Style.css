@@ -409,7 +409,7 @@ color: rgba(251, 252, 114, 0.8);
     line-height: 31px;
     /* identical to box height */
     
-    
+
     color: rgba(251, 252, 114, 0.8);  
 }
 
@@ -424,10 +424,7 @@ color: rgba(251, 252, 114, 0.8);
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
-    line-height: 95%;
-    /* or 38px */
-    
-    
+    line-height: 95%;    
     color: #FFFFFF;
 }
 
@@ -452,8 +449,8 @@ color: rgba(251, 252, 114, 0.8);
 .ForWhomBlock {
 position: absolute;
 width: 100%;
-height: 100%;
-top: 202222030%;
+height: 220%;
+top: 270%;
 
 backdrop-filter: blur(2.5px);
 background-color: rgb(35, 35, 36);
@@ -462,73 +459,87 @@ left: 0px;
 
 .ForWhomText {
     position: absolute;
-    left: 123px;
-    top: 50px;  
-    font-family: 'Neue Machina-Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 60px;
-    color:  rgba(251, 252, 114, 0.8);
+width: 139px;
+height: 31px;
+left: 66px;
+top: 20px;
+
+font-family: 'Neue Machina-Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 31px;
+/* identical to box height */
+
+
+color: rgba(251, 252, 114, 0.8);
 }
 
 .ForWhomHead {
     position: absolute;
-    height: 138px;
-    left: 650px;
-    top: 240px;
-    
-    font-family: 'Neue Machina-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 120px;
-    line-height: 70px;
-    text-align: center;
-    
-    color: #FFFFFF;
+width: 882px;
+height: 138px;
+left: 66px;
+top: 60px;
+
+font-family: 'Neue Machina-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 69px;
+
+color: #FFFFFF;
 }
 
 .ForWhomNumber1 {
     position: absolute;
     width: 40px;
     height: 31px;
-    left: 650px;
-    top: 550px;
+    left: 66px;
+    top: 300px;
     
     font-family: 'Neue Machina-Medium';
     font-style: normal;
     font-weight: 500;
-    font-size: 64px;
+    font-size: 32px;
     line-height: 31px;
+    /* identical to box height */
     
     
-    color: rgba(251, 252, 114, 0.8);     
+    color: rgba(251, 252, 114, 0.8);
 }
 
 .ForWhomNumber1Head {
     position: absolute;
-    left: 650px;
-    top: 650px;
-    
-    font-family: 'TT Travels-Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 70px;
-    line-height: 95%;
-    
-    
-    color: #FFFFFF;   
+width: 462px;
+height: 38px;
+left: 66px;
+top: 350px;
+
+font-family: 'TT Travels-Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 95%;
+/* identical to box height, or 38px */
+
+
+color: #FFFFFF;
 }
 
 .UnderForWhomHead1 {
     position: absolute;
-    left: 650px;
-    top: 800px;
+    width: 502px;
+    height: 69px;
+    left: 66px;
+    top: 400px;
     
     font-family: 'TT Travels-Medium';
     font-style: normal;
     font-weight: 400;
-    font-size: 55px;
-    width: 1100px;
+    font-size: 24px;
+    line-height: 95%;
+    /* or 23px */
     
     
     color: rgba(255, 255, 255, 0.8);
@@ -538,44 +549,51 @@ left: 0px;
     position: absolute;
     width: 40px;
     height: 31px;
-    left: 2350px;
-    top: 550px;
+    left: 700px;
+    top: 300px;
     
     font-family: 'Neue Machina-Medium';
     font-style: normal;
     font-weight: 500;
-    font-size: 64px;
+    font-size: 32px;
     line-height: 31px;
+    /* identical to box height */
     
     
-    color: rgba(251, 252, 114, 0.8); 
+    color: rgba(251, 252, 114, 0.8);
 }
 
 .ForWhomNumber2Head2 {
     position: absolute;
-    left: 2350px;
-    top: 650px;
-    
-    font-family: 'TT Travels-Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 70px;
-    line-height: 95%;
-    
-    
-    color: #FFFFFF; 
+width: 462px;
+height: 38px;
+left: 700px;
+top: 350px;
+
+font-family: 'TT Travels-Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 95%;
+/* identical to box height, or 38px */
+
+
+color: #FFFFFF;
 }
 
 .UnderForWhomHead2 {
     position: absolute;
-    left: 2350px;
-    top: 800px;
+    width: 502px;
+    height: 69px;
+    left: 700px;
+    top: 400px;
     
     font-family: 'TT Travels-Medium';
     font-style: normal;
     font-weight: 400;
-    font-size: 55px;
-    width: 1100px;
+    font-size: 24px;
+    line-height: 95%;
+    /* or 23px */
     
     
     color: rgba(255, 255, 255, 0.8);
@@ -583,74 +601,88 @@ left: 0px;
 
 .people {
     position: absolute;
-    width: 2000px;
-    height: 700px;
-    left: 1800px;
-    top: 1500px;
+    width: 1265px;
+    height: 574px;
+    left: 75px;
+    top: 600px;
+    
 }
 
 .blackPeople {
-
     position: absolute;
-    width: 2100px;
-    height: 1000px;
-    left: 1800px;
-    top: 2000px;
+width: 1125px;
+height: 480px;
+left: 187px;
+top: 1050px;
 }
 
 .peopleText1 {
     position: absolute;
-    left: 1950px;
-    top: 2100px;
-    width: 2000px;
+    width: 878px;
+    height: 93px;
+    left: 305px;
+    top: 1120px;
+    
     font-family: 'Neue Machina-Medium';
     font-style: normal;
-    font-size: 64px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 31px;
     
     color: #FFFFFF;
 }
 
 .ConOurService {
     position: absolute;
-    width: 1150px;
-    left: 1950px;
-    top: 2450px;
-    font-size: 56px;
+    width: 607px;
+    height: 54px;
+    left: 306px;
+    top: 1250px;
+    
     font-family: 'TT Travels-Regular';
     font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 95%;
+    /* or 27px */
+    
+    
     color: #FFFFFF;
 }
 
 .ButtonBlock2 {
     position: absolute;
-    width: 600px;
-    height: 150px;
-    left: 2000px;
-    top: 2720px;
+    width: 300px;
+    height: 79px;
+    left: 306px;
+    top: 1400px;
     
     background: #FBFC72;
 }
 
 .Button2Text {
     position: absolute;
+width: 269px;
+height: 31px;
+left: 41px;
+top: 25px;
 
-    
-    font-family: 'Neue Machina-Bold';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 64px;
-    line-height: 31px;
-    left: 26.5px;
-    top: 50px;
-    
-    color: #000000;
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 31px;
+/* identical to box height */
+
+
+color: #000000;
 }
 
 .PrincipleOfOperationBlock {
     position: absolute;
     width: 100%;
-    height: 200%;
-    top: 240%;
+    height: 280%;
+    top: 490%;
     
     backdrop-filter: blur(2.5px);
     background-color: rgb(35, 35, 36);
@@ -659,7 +691,7 @@ left: 0px;
 
 .princip {
     position: absolute;
-    left: 123px;
+    left: 66px;
     top: 50px;  
     font-family: 'Neue Machina-Medium';
     font-style: normal;
@@ -670,419 +702,632 @@ left: 0px;
 
 .jobService {
     position: absolute;
+    width: 1550px;
     height: 138px;
-    left: 650px;
-    top: 240px;
+    left: 66px;
+    top: 150px;
     
-    font-family: 'Neue Machina-Bold';
+    font-family: 'Neue Machina-Medium';
     font-style: normal;
     font-weight: 700;
-    font-size: 120px;
-    line-height: 70px;
-    text-align: center;
+    font-size: 72px;
+    line-height: 69px;
     
     color: #FFFFFF;
+
 }
 
 .line {
-    
-position: absolute;
-width: 1290px;
-height: 5px;
-left: 40px;
-top: 1350px;
-
-border: 3px solid #FFFFFF;
-transform: rotate(90deg);
+    position: absolute;
+    width: 200px;
+    top: 600px;
+    height: 1px;
+    border: 3px solid #FFFFFF;
+    transform: rotate(90deg);
 }
 
 .line2 {
-    
     position: absolute;
-    width: 1290px;
-    height: 5px;
-    left: 40px;
-    top: 2650px;
-    
+    width: 200px;
+    top: 800px;
+    height: 1px;
     border: 3px solid #FFFFFF;
     transform: rotate(90deg);
 }
 
 .line3 {
-    
     position: absolute;
-    width: 1290px;
-    height: 5px;
-    left: 40px;
-    top: 3350px;
-    
+    width: 200px;
+    top: 1000px;
+    height: 1px;
     border: 3px solid #FFFFFF;
     transform: rotate(90deg);
 }
 
 .line4 {
-    
     position: absolute;
-    width: 1290px;
-    height: 5px;
-    left: 40px;
-    top: 4600px;
-    
+    width: 200px;
+    top: 1200px;
+    height: 1px;
     border: 3px solid #FFFFFF;
     transform: rotate(90deg);
 }
 
+.line5 {
+    position: absolute;
+    width: 200px;
+    top: 1400px;
+    height: 1px;
+    border: 3px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+
+.line6 {
+    position: absolute;
+    width: 200px;
+    top: 1500px;
+    height: 1px;
+    border: 3px solid #FFFFFF;
+    transform: rotate(90deg);
+}
 
 .circle1 {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 640px;
-    top: 900px;
+    width: 38px;
+    height: 38px;
+    top: 600px;
     border-radius: 50%;
-    
+    left: 83px;
     background: #FFFFFF;
 }
 
 .circle2 {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 640px;
-    top: 1800px;
+    width: 38px;
+    height: 38px;
+    top: 800px;
     border-radius: 50%;
-    
+    left: 83px;
     background: #FFFFFF;
 }
 
 .circle3 {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 640px;
-    top: 2700px;
+    width: 38px;
+    height: 38px;
+    top: 1000px;
     border-radius: 50%;
-    
+    left: 83px;
     background: #FFFFFF;
 }
 
 .circle4 {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 640px;
-    top: 3700px;
+    width: 38px;
+    height: 38px;
+    top: 1250px;
     border-radius: 50%;
-    
+    left: 83px;
     background: #FFFFFF;
 }
 
 .circle5 {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 640px;
-    top: 4600px;
+    width: 38px;
+    height: 38px;
+    top: 1450px;
     border-radius: 50%;
-    
+    left: 83px;
     background: #FFFFFF;
 }
 
 .first {
     position: absolute;
-    width: 40px;
-    height: 31px;
-    left: 850px;
-    top: 870px;
-    
-    font-family: 'Neue Machina-Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 64px;
-    line-height: 31px;
-    
-    
-    color: rgba(251, 252, 114, 0.8); 
+width: 40px;
+height: 31px;
+left: 189px;
+top: 575px;
+
+font-family: 'Neue Machina-Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 31px;
+/* identical to box height */
+
+
+color: rgba(251, 252, 114, 0.8);
+
 }
 
 .reg {
     position: absolute;
-    left: 850px;
-    top: 1000px;
+    width: 632px;
+    height: 38px;
+    left: 189px;
+    top: 615px;
     
     font-family: 'TT Travels-Medium';
     font-style: normal;
-    font-weight:bold;
-    font-size: 70px;
-    width: 1100px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 95%;
+    /* identical to box height, or 38px */
     
     
+    color: #FFFFFF;
     
-    color: rgba(255, 255, 255, 0.8);
 }
 
 .regText {
     position: absolute;
-
-    left: 850px;
-    top: 1250px;
-    width: 1500px;
-    font-family: 'TT Travels-Regular';
+    width: 507px;
+    height: 69px;
+    left: 190px;
+    top: 660px;
+    
+    font-family: 'TT Travels';
     font-style: normal;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 24px;
     line-height: 95%;
+    /* or 23px */
     
     
     color: rgba(255, 255, 255, 0.8);
 }
 
 .second {
-    position: absolute; 
-    width: 40px;
-    height: 31px;
-    left: 850px;
-    top: 1768px;
-    
-    font-family: 'Neue Machina-Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 64px;
-    line-height: 31px;
-    
-    
-    color: rgba(251, 252, 114, 0.8); 
+    position: absolute;
+width: 40px;
+height: 31px;
+left: 189px;
+top: 775px;
+
+font-family: 'Neue Machina-Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 31px;
+/* identical to box height */
+
+
+color: rgba(251, 252, 114, 0.8);
+
 }
 
 .Goal {
     position: absolute;
-    left: 850px;
-    top: 1900px;
+    width: 632px;
+    height: 38px;
+    left: 189px;
+    top: 815px;
     
     font-family: 'TT Travels-Medium';
     font-style: normal;
-    font-weight:bold;
-    font-size: 70px;
-    width: 1100px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 95%;
+    /* identical to box height, or 38px */
     
     
+    color: #FFFFFF;
     
-    color: rgba(255, 255, 255, 0.8);
 }
 
 .GoalText {
     position: absolute;
-
-    left: 850px;
-    top: 2150px;
-    width: 1500px;
-    font-family: 'TT Travels-Regular';
+    width: 750px;
+    height: 100px;
+    left: 190px;
+    top: 860px;
+    
+    font-family: 'TT Travels';
     font-style: normal;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 24px;
     line-height: 95%;
+    /* or 23px */
     
     
     color: rgba(255, 255, 255, 0.8);
 }
 
 .third {
-    position: absolute; 
-    width: 40px;
-    height: 31px;
-    left: 850px;
-    top: 2670px;
-    
-    font-family: 'Neue Machina-Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 64px;
-    line-height: 31px;
-    
-    
-    color: rgba(251, 252, 114, 0.8); 
+    position: absolute;
+width: 40px;
+height: 31px;
+left: 189px;
+top: 975px;
+
+font-family: 'Neue Machina-Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 31px;
+/* identical to box height */
+
+
+color: rgba(251, 252, 114, 0.8);
 }
 
 .search {
     position: absolute;
-    left: 850px;
-    top: 2840px;
+    width: 632px;
+    height: 38px;
+    left: 189px;
+    top: 1015px;
     
     font-family: 'TT Travels-Medium';
     font-style: normal;
-    font-weight:bold;
-    font-size: 70px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 95%;
+    /* identical to box height, or 38px */
     
     
-    
-    color: rgba(255, 255, 255, 0.8);   
+    color: #FFFFFF;
+     
 }
 
 .searchText {
     position: absolute;
-
-    left: 850px;
-    top: 3090px;
-    width: 1500px;
-    font-family: 'TT Travels-Regular';
+    width: 750px;
+    height: 100px;
+    left: 190px;
+    top: 1100px;
+    
+    font-family: 'TT Travels';
     font-style: normal;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 24px;
     line-height: 95%;
+    /* or 23px */
     
     
     color: rgba(255, 255, 255, 0.8);
 }
 
 .Fourth {
-    position: absolute; 
+    position: absolute;
     width: 40px;
     height: 31px;
-    left: 850px;
-    top: 3670px;
+    left: 189px;
+    top: 1220px;
     
     font-family: 'Neue Machina-Medium';
     font-style: normal;
     font-weight: 500;
-    font-size: 64px;
+    font-size: 32px;
     line-height: 31px;
+    /* identical to box height */
     
     
-    color: rgba(251, 252, 114, 0.8); 
+    color: rgba(251, 252, 114, 0.8);
 }
 
 .Plavno {
     position: absolute;
-    left: 850px;
-    top: 3850px;
+    width: 632px;
+    height: 38px;
+    left: 189px;
+    top: 1260px;
     
     font-family: 'TT Travels-Medium';
     font-style: normal;
-    font-weight:bold;
-    font-size: 70px;
-    width: 1100px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 95%;
+    /* identical to box height, or 38px */
     
     
-    
-    color: rgba(255, 255, 255, 0.8);
+    color: #FFFFFF;
 }
    
 .PlavnoText {
     position: absolute;
-
-    left: 850px;
-    top: 4100px;
-    width: 1500px;
-    font-family: 'TT Travels-Regular';
+    width: 750px;
+    height: 100px;
+    left: 190px;
+    top: 1300px;
+    
+    font-family: 'TT Travels';
     font-style: normal;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 24px;
     line-height: 95%;
+    /* or 23px */
     
     
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8); 
 }
 
 .Fifth {
-    position: absolute; 
+    position: absolute;
     width: 40px;
     height: 31px;
-    left: 850px;
-    top: 4580px;
+    left: 189px;
+    top: 1420px;
     
     font-family: 'Neue Machina-Medium';
     font-style: normal;
     font-weight: 500;
-    font-size: 64px;
+    font-size: 32px;
     line-height: 31px;
+    /* identical to box height */
     
     
-    color: rgba(251, 252, 114, 0.8);    
+    color: rgba(251, 252, 114, 0.8);  
 }
 
 .End {
     position: absolute;
-    left: 850px;
-    top: 4770px;
+    width: 632px;
+    height: 38px;
+    left: 189px;
+    top: 1460px;
     
     font-family: 'TT Travels-Medium';
     font-style: normal;
-    font-weight:bold;
-    font-size: 70px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 95%;
+    /* identical to box height, or 38px */
     
     
-    
-    color: rgba(255, 255, 255, 0.8);
+    color: #FFFFFF;
 }
 
 .EndText {
     position: absolute;
-
-    left: 850px;
-    top: 5000px;
-    width: 1500px;
-    font-family: 'TT Travels-Regular';
+    width: 750px;
+    height: 100px;
+    left: 190px;
+    top: 1540px;
+    
+    font-family: 'TT Travels';
     font-style: normal;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 24px;
     line-height: 95%;
+    /* or 23px */
     
     
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);   
 }
 
 .kirill {
     position: absolute;
-width: 1500px;
-height: 2500px;
-left: 5000px;
-top: 1000px;
+    width: 489px;
+    height: 685px;
+    left: 950px;
+    top: 700px;
+    
 }
 
 .blackKirill {
     position: absolute;
-    width: 2000px;
-    height: 1000px;
-    left: 4600px;
-    top: 2600px;
+width: 470px;
+height: 358px;
+left: 1000px;
+top: 1150px;
 }
 
 .circleKirill {
     position: absolute;
-    width: 200px;
-    height: 200px;
-    left: 5700px;
-    top: 2560px;
+width: 90px;
+height: 90px;
+left: 1180px;
+top: 1150px;
+
+background: url(ellipse_vasya.png);
+mix-blend-mode: difference;
 }
 
 .InfoKirill {
     position: absolute;
-
-    left: 5250px;
-    top: 2750px;
+    width: 358px;
+    height: 31px;
+    left: 1070px;
+    top: 1250px;
     
     font-family: 'Neue Machina-Medium';
     font-style: normal;
     font-weight: 500;
-    font-size: 68px;
-
+    font-size: 32px;
+    line-height: 31px;
+    /* identical to box height */
     
     
     color: #FFFFFF;
 }
 
 .kirillText {
-    left: 5250px;
-    top: 2950px;
     position: absolute;
-    width: 1000px;
+    width: 371px;
+    height: 81px;
+    left: 1068px;
+    top: 1300px;
+    
     font-family: 'TT Travels-Regular';
     font-style: normal;
     font-weight: 400;
-    font-size: 68px;
-
-
+    font-size: 28px;
+    line-height: 95%;
+    /* or 27px */
     
     
     color: #FFFFFF;
+}
+
+.endBlock {
+    position: absolute;
+width: 632px;
+height: 76px;
+left: 66px;
+top: 1650px;
+
+font-family: 'TT Travels-Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 95%;
+/* or 38px */
+
+
+color: #FFFFFF;
+}
+
+.ButtonBlock3 {
+    position: absolute;
+    width: 300px;
+    height: 79px;
+    left: 66px;
+    top: 1800px;
+    
+    background: #FBFC72;
+}
+
+.Button3Text {
+    position: absolute;
+width: 269px;
+height: 31px;
+left: 41px;
+top: 25px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 31px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+.podval {
+    position: absolute;
+    width: 100%;
+    height: 268px;
+    left: 0px;
+    top: 770%;
+    
+    background: #0F0E12;
+}
+
+.logo2 {
+    position: absolute;
+width: 95px;
+height: 29px;
+left: 125px;
+top: 60px;
+}
+
+.mdw {
+    position: absolute;
+width: 325px;
+height: 23px;
+left: 125px;
+top: 100px;
+
+font-family: 'TT Travels-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 95%;
+/* identical to box height, or 23px */
+
+
+color: rgba(255, 255, 255, 0.8);
+}
+
+.support {
+    position: absolute;
+width: 142px;
+height: 23px;
+left: 550px;
+top: 40px;
+
+font-family: 'TT Travels-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 95%;
+/* identical to box height, or 23px */
+
+
+color: rgba(255, 255, 255, 0.8);
+}
+
+.sotr {
+    position: absolute;
+width: 206px;
+height: 23px;
+left: 820px;
+top: 40px;
+
+font-family: 'TT Travels';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 95%;
+/* identical to box height, or 23px */
+
+
+color: rgba(255, 255, 255, 0.8);
+}
+
+.telega {
+    position: absolute;
+    width: 111px;
+    height: 23px;
+    left: 1090px;
+    top: 40px;
+    
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 95%;
+    /* identical to box height, or 23px */
+    
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.VK {
+    position: absolute;
+    width: 111px;
+    height: 23px;
+    left: 1090px;
+    top: 100px;
+    
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 95%;
+    /* identical to box height, or 23px */
+    
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.Inst {
+    position: absolute;
+    width: 111px;
+    height: 23px;
+    left: 1090px;
+    top: 160px;
+    
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 95%;
+    /* identical to box height, or 23px */
+    
+    
+    color: rgba(255, 255, 255, 0.8);
 }

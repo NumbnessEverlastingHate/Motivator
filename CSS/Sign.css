@@ -101,36 +101,29 @@ color: rgba(255, 255, 255, 0.8);
     color: rgba(255, 255, 255, 0.8);
 }
 
+
 .button {
-    position: absolute;
-    width: 193px;
-    height: 79px;
-    left: 30px;
-    top: 270px;
-    background: #D0D0D1;
-}
-
-.sig {
-    position: absolute;
-width: 100px;
-height: 30px;
-left: 49px;
-
+position: absolute;
+left: 30px;
+top: 270px;
 font-family: 'Neue Machina-Medium';
 font-style: normal;
 font-weight: 500;
 font-size: 32px;
 line-height: 31px;
-
-
+width: 157px;
+height: 79px;
 color: #000000;
+background-color: gold;
 }
+
+
 
 .back {
     position: absolute;
     width: 157px;
     height: 79px;
-    left: 300px;
+    left: 250px;
     top: 270px;
     background: transparent;
 

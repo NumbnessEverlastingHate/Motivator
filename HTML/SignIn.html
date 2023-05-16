@@ -2,19 +2,21 @@
     <head>
         <title>SignIn or signUp</title>
         <link rel="stylesheet" href="..//CSS/Sign.css">
+        <script src="..//JS/signIn.js"></script>
     </head>
 <body>
     <div class="background">
         <div class="Frame">
             <h1 class="mainHead">Войти</h1>
             <form class="signIn">
-                <input placeholder="Логин" class="login">
-                <input placeholder="Пароль" class="password">
-            <div class="button">
-                <h1 class="sig">Войти</h1>
-            </div>
-        </form>
+                <input placeholder="Логин" class="login" value="" name="login">
+                <input type="password" placeholder="Пароль" class="password" value="" name="password">
+            </form>
        
+        <form action="..//HTML/myGoal.html">
+            <button class="button" name="button">Войти</button>
+        </form>
+
         <form action="..///HTML/Index.html">
             <button class="back">Назад</button>
         </form>

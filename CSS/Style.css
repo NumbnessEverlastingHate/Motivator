@@ -112,9 +112,9 @@ color: white;
 
 .MainHead {
     position: absolute;
-    width: 990px;
+    width: 1000px;
     height: 138px;
-    left: 20%;
+    left: 22%;
     top: 180px;
     
     font-family: 'Neue Machina-Bold';
@@ -149,7 +149,7 @@ color: white;
     position: absolute;
     width: 325px;
     height: 79px;
-    left: 601px;
+    left: 40%;
     top: 500px;
     
     background: #FBFC72;
@@ -450,7 +450,7 @@ color: rgba(251, 252, 114, 0.8);
 position: absolute;
 width: 100%;
 height: 220%;
-top: 270%;
+top: 90%;
 
 backdrop-filter: blur(2.5px);
 background-color: rgb(35, 35, 36);
@@ -681,8 +681,8 @@ color: #000000;
 .PrincipleOfOperationBlock {
     position: absolute;
     width: 100%;
-    height: 280%;
-    top: 490%;
+    height: 245%;
+    top: 280%;
     
     backdrop-filter: blur(2.5px);
     background-color: rgb(35, 35, 36);
@@ -1211,7 +1211,7 @@ color: #000000;
     width: 100%;
     height: 268px;
     left: 0px;
-    top: 770%;
+    top: 500%;
     
     background: #0F0E12;
 }

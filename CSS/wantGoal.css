@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'TT Travels-Regular';
+    src: url(..//Fonts/TTTravels-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'TT Travels-Medium';
+    src: url(..//Fonts/TTTravels-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Neue Machina-Bold';
+    src: url(..//Fonts/NeueMachina-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Neue Machina-Medium';
+    src: url(..//Fonts/NeueMachina-Medium.ttf);
+}
+
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(3px);
+    top: 0px;
+    left: 0px;
+    background: url(..//Images/abstract2.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+
+.frame {
+    position: absolute;
+width: 577px;
+height: 275px;
+left: 34%;
+top: 328px;
+
+background: rgba(0, 0, 0, 0.01);
+border: 1px solid #FFFFFF;
+backdrop-filter: blur(7.5px);
+}
+
+.head {
+    position: absolute;
+    width: 497px;
+    height: 76px;
+    top: 10px;
+    left: 20px;
+    
+    font-family: 'TT Travels-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 95%;
+    /* or 38px */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+.button {
+position: absolute;
+left: 50px;
+height: 70px;
+top: 160px;
+font-family: 'Neue Machina-Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+background: #FBFC72;
+}
+
+.wait {
+    position: absolute;
+    width: 157px;
+    height: 70px;
+    left: 270px;
+    top: 160px;
+    background: transparent;
+
+    border: 1px solid #FFFFFF;
+    position: absolute;
+
+
+font-family: 'Neue Machina-Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 31px;
+
+
+color: #FFFFFF;
+}

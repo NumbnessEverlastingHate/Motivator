@@ -1,0 +1,542 @@
+@font-face {
+    font-family: 'TT Travels-Regular';
+    src: url(..//Fonts/TTTravels-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'TT Travels-Medium';
+    src: url(..//Fonts/TTTravels-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Neue Machina-Bold';
+    src: url(..//Fonts/NeueMachina-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Neue Machina-Medium';
+    src: url(..//Fonts/NeueMachina-Medium.ttf);
+}
+
+.leftBlock {
+    position: absolute;
+width: 360px;
+height: 100%;
+left: 0px;
+top: 0px;
+
+
+background: #201E26;
+}
+
+.avatar {
+
+}
+
+.name {
+position: absolute;
+width: 156px;
+height: 31px;
+left: 100px;
+top: 220px;
+text-align: center;
+
+font-family: 'Neue Machina-Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 31px;
+
+
+color: #FFFFFF;
+}
+
+.ID {
+    position: absolute;
+    width: 131px;
+    height: 23px;
+    left: 112px;
+    top: 257px;
+    
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 95%;
+
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.profile {
+    position: absolute;
+    width: 130px;
+    height: 29px;
+    left: 110px;
+    top: 350px;
+    
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.myGoal {
+    position: absolute;
+    width: 130px;
+    height: 29px;
+    left: 110px;
+    top: 400px;
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.couch {
+    position: absolute;
+    width: 130px;
+    height: 29px;
+    left: 110px;
+    top: 450px;
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.settings {
+    position: absolute;
+    width: 130px;
+    height: 29px;
+    left: 110px;
+    top: 550px;
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.support {
+    position: absolute;
+    width: 130px;
+    height: 29px;
+    left: 110px;
+    top: 600px;
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.rightBlock {
+position: absolute;
+width: 1519px;
+height: 100%;
+left: 360px;
+top: 0px;
+
+
+background: #121116;
+}
+
+
+.logo {
+    position: absolute;
+width: 95px;
+height: 29px;
+left: 100px;
+top: 60px;
+}
+
+
+.myGoalHead {
+    position: absolute;
+width: 192px;
+height: 38px;
+left: 100px;
+top: 120px;
+
+
+/* TT Travels, заголовки, 40 */
+
+font-family: 'TT Travels-Regular';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 95%;
+/* identical to box height, or 38px */
+
+
+color: #FFFFFF;
+}
+
+.blockGoal {
+    position: absolute;
+width: 518px;
+height: 115px;
+left: 100px;
+top: 200px;
+
+/* dark grey */
+
+background: #201E26;
+}
+
+.rightGoal {
+    position: absolute;
+width: 239px;
+height: 28px;
+left: 700px;
+top: 180px;
+
+/* TT Travels, подзаголовки 32 */
+
+font-family: 'TT Travels-Regular';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 28px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.lineProgress {
+    position: absolute;
+width: 310px;
+height: 0px;
+left: 700px;
+top: 250px;
+
+/* light grey */
+
+border: 3px solid #D0D0D1;
+}
+
+.goldLine {
+    position: absolute;
+width: 155px;
+height: 0px;
+left: 700px;
+top: 250px;
+
+/* accent */
+
+border: 3px solid #FBFC72;
+}
+
+.textLine {
+    position: absolute;
+width: 239px;
+height: 46px;
+left: 700px;
+top: 250px;
+
+font-family: 'TT Travels-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 95%;
+/* or 23px */
+
+
+color: #FFFFFF;
+
+}
+
+.InfoGoal {
+    position: absolute;
+width: 257px;
+height: 28px;
+left: 100px;
+top: 370px;
+
+/* TT Travels, подзаголовки 32 */
+
+font-family: 'TT Travels-Regular';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 28px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+.infoGoalPlace {
+    position: absolute;
+width: 870px;
+height: 95px;
+left: 100px;
+top: 430px;
+
+/* dark grey */
+
+background: #201E26;
+}
+
+.timeLine {
+
+position: absolute;
+height: 28px;
+left: 100px;
+top: 570px;
+
+/* TT Travels, подзаголовки 32 */
+
+font-family: 'TT Travels-Regular';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 28px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.line {
+    position: absolute;
+width: 1000px;
+height: 0px;
+left: 100px;
+top: 700px;
+background: #D0D0D1;
+border: 3px solid #D0D0D1;
+}
+
+.goldLine {
+    position: absolute;
+    width: 390px;
+    height: 0px;
+    left: 100px;
+    top: 700px;
+    
+    /* accent */
+    
+    border: 3px solid #FBFC72;
+}
+
+.date1 {
+    position: absolute;
+width: 76px;
+height: 15px;
+left: 100px;
+top: 640px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 15px;
+
+color: rgba(255, 255, 255, 0.8);
+
+}
+
+.goldCircle {
+    position: absolute;
+width: 56px;
+height: 56px;
+left: 99px;
+top: 675px;
+border-radius: 50%;
+/* accent */
+
+background: #FBFC72;
+}
+
+.date1 {
+    position: absolute;
+width: 76px;
+height: 15px;
+left: 100px;
+top: 640px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 15px;
+
+color: rgba(255, 255, 255, 0.8);
+
+}
+
+.goldCircle {
+    position: absolute;
+width: 56px;
+height: 56px;
+left: 99px;
+top: 675px;
+border-radius: 50%;
+/* accent */
+
+background: #FBFC72;
+}
+
+.date2 {
+    position: absolute;
+width: 76px;
+height: 15px;
+left: 290px;
+top: 655px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 15px;
+
+color: rgba(255, 255, 255, 0.8);
+
+}
+
+.goldCircle2 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+left: 306px;
+top: 690px;
+border-radius: 50%;
+/* accent */
+
+background: #FBFC72;
+}
+
+.date3 {
+    position: absolute;
+width: 76px;
+height: 15px;
+left: 470px;
+top: 655px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 15px;
+
+color: rgba(255, 255, 255, 0.8);
+
+}
+
+.goldCircle3 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+left: 486px;
+top: 690px;
+border-radius: 50%;
+/* accent */
+
+background: #FBFC72;
+}
+
+.date4 {
+    position: absolute;
+width: 76px;
+height: 15px;
+left: 676px;
+top: 655px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 15px;
+
+color: rgba(255, 255, 255, 0.8);
+
+}
+
+.goldCircle4 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+left: 692px;
+top: 690px;
+border-radius: 50%;
+/* accent */
+
+background: #D0D0D1;
+}
+
+.date5 {
+    position: absolute;
+width: 76px;
+height: 15px;
+left: 880px;
+top: 655px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 15px;
+
+color: rgba(255, 255, 255, 0.8);
+
+}
+
+.goldCircle5 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+left: 898px;
+top: 690px;
+border-radius: 50%;
+/* accent */
+
+background: #D0D0D1;
+}
+
+
+
+.date6 {
+    position: absolute;
+width: 76px;
+height: 15px;
+left: 1104px;
+top: 640px;
+
+font-family: 'Neue Machina';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 15px;
+
+color: rgba(255, 255, 255, 0.8);
+
+}
+.goldCircle6 {
+    position: absolute;
+width: 56px;
+height: 56px;
+left: 1104px;
+top: 675px;
+border-radius: 50%;
+/* accent */
+
+background: #D0D0D1;
+}

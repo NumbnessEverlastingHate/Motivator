@@ -30,7 +30,15 @@ background: #201E26;
 }
 
 .avatar {
+    box-sizing: border-box;
 
+position: absolute;
+width: 144px;
+height: 144px;
+border-radius: 50%;
+left: 110px;
+border: 1px solid #D0D0D1;
+top: 80px;
 }
 
 .name {

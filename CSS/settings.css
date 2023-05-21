@@ -1,0 +1,471 @@
+@font-face {
+    font-family: 'TT Travels-Regular';
+    src: url(..//Fonts/TTTravels-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'TT Travels-Medium';
+    src: url(..//Fonts/TTTravels-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Neue Machina-Bold';
+    src: url(..//Fonts/NeueMachina-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Neue Machina-Medium';
+    src: url(..//Fonts/NeueMachina-Medium.ttf);
+}
+
+.leftBlock {
+    position: absolute;
+width: 360px;
+height: 100%;
+left: 0px;
+top: 0px;
+
+
+background: #201E26;
+}
+
+.avatar {
+
+}
+
+.name {
+position: absolute;
+width: 156px;
+height: 31px;
+left: 100px;
+top: 220px;
+text-align: center;
+
+font-family: 'Neue Machina-Medium';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 31px;
+
+
+color: #FFFFFF;
+}
+
+.ID {
+    position: absolute;
+    width: 131px;
+    height: 23px;
+    left: 112px;
+    top: 257px;
+    
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 95%;
+
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.profile {
+    position: absolute;
+    width: 130px;
+    height: 29px;
+    left: 110px;
+    top: 350px;
+    
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.myGoal {
+    position: absolute;
+    width: 130px;
+    height: 29px;
+    left: 110px;
+    top: 400px;
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.couch {
+    position: absolute;
+    width: 130px;
+    height: 29px;
+    left: 110px;
+    top: 450px;
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.settings {
+    position: absolute;
+    width: 130px;
+    height: 29px;
+    left: 110px;
+    top: 550px;
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.support {
+    position: absolute;
+    width: 130px;
+    height: 29px;
+    left: 110px;
+    top: 600px;
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.rightBlock {
+position: absolute;
+width: 1519px;
+height: 100%;
+left: 360px;
+top: 0px;
+
+
+background: #121116;
+}
+
+.logo {
+    position: absolute;
+    width: 95px;
+    height: 29px;
+    left: 100px;
+    top: 60px;
+}
+
+.settingsProfile {
+    position: absolute; 
+       height: 38px;
+    left: 100px;
+    top: 120px;
+    
+    
+    /* TT Travels, заголовки, 40 */
+    
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 95%;
+    /* identical to box height, or 38px */
+    
+    
+    color: #FFFFFF;
+}
+
+.link1 {
+    position: absolute;
+width: 105px;
+height: 29px;
+left: 100px;
+top: 210px;
+font-family: 'TT Travels-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-decoration: none;
+color: #bebbbb;
+}
+
+.link2 {
+    position: absolute;
+height: 29px;
+left: 300px;
+top: 210px;
+font-family: 'TT Travels-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-decoration: none;
+color: #bebbbb;
+}
+
+.link3 {
+    position: absolute;
+height: 29px;
+left: 600px;
+top: 210px;
+font-family: 'TT Travels-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-decoration: none;
+color: #bebbbb;
+}
+
+.reminder {
+    position: absolute;
+    width: 345px;
+    height: 28px;
+    left: 100px;
+    top: 280px;
+    
+    /* TT Travels, подзаголовки 32 */
+    
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 28px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    top: 300px;
+    left: 500px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {display:none;}
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    background: none;
+    border: 1px solid #FBFC72;
+    border-radius: 32px;
+    
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 25px;
+    width: 25px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    background: gold;
+
+  }
+  
+  input:checked + .slider {
+    background-color: gold;
+    background: none;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px gold;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+}
+
+.name1 {
+    position: absolute;
+    width: 33px;
+    height: 19px;
+    left: 100px;
+    top: 380px;
+    
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.name2 {
+    position: absolute;
+width: 415px;
+height: 49px;
+left: 100px;
+top: 420px;
+color: #FFFFFF;
+/* dark grey */
+font-size: 24px;
+background: #201E26;
+}
+
+.surname {
+    position: absolute;
+    width: 33px;
+    height: 19px;
+    left: 100px;
+    top: 480px;
+    
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.surname1 {
+    position: absolute;
+width: 415px;
+height: 49px;
+left: 100px;
+top: 520px;
+color: #FFFFFF;
+/* dark grey */
+font-size: 24px;
+background: #201E26;
+}
+
+.birthday {
+    position: absolute;
+    height: 19px;
+    left: 100px;
+    top: 580px;
+    
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.birthday1 {
+    position: absolute;
+width: 415px;
+height: 49px;
+left: 100px;
+top: 625px;
+color: #FFFFFF;
+/* dark grey */
+font-size: 24px;
+background: #201E26;
+}
+
+.country {
+    position: absolute;
+    height: 19px;
+    left: 600px;
+    top: 380px;
+    
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.country1 {
+    position: absolute;
+width: 415px;
+height: 49px;
+left: 600px;
+top: 420px;
+color: #FFFFFF;
+/* dark grey */
+font-size: 24px;
+background: #201E26;
+}
+
+.city{
+    position: absolute;
+    height: 19px;
+    left: 600px;
+    top: 480px;
+    
+    font-family: 'TT Travels-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.city1 {
+    position: absolute;
+width: 415px;
+height: 49px;
+left: 600px;
+top: 520px;
+color: #FFFFFF;
+/* dark grey */
+font-size: 24px;
+background: #201E26;
+}
+
+.button {
+    position: absolute;
+    height: 50px;
+    left: 100px;
+    top: 720px;
+    font-family: 'Neue Machina-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 95%;
+    /* identical to box height, or 23px */
+    
+    
+    color: #000000;
+    
+    background: #FBFC72;
+}
